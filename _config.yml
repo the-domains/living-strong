@@ -1,28 +1,40 @@
-name: Living Strong
-favicon: null
-layout_spectrum: 0.11308293440379202
-typography_spectrum: 0.43413161509670317
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.5322581
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.06705727
+  brandStrength: 0.8489649144466966
+  lightness: 0.09498208
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.8489649144466966
-  lightness: 0.04372962540946901
-  saturation: 0.0670572747476399
-  rhythmicContrast: 0.16420740308240056
-purpose: []
+  rhythmicContrast: 0.1642074
+typography_spectrum: 0.4341316150967032
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Living Strong
